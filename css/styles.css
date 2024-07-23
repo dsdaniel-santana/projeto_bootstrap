@@ -1,3 +1,54 @@
-h1{
-    color: red;
+/* Gerais */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: #353d41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #f2f2f2;
+}
+
+.navbar-brand:hover {
+    color: #f2f2f2;
+}
+
+#navbar-links {
+    color: #f2f2f2;
+}
+
+.navbar-nav .nav-link {
+    color: #f2f2f2;
+    padding: 1rem .8rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e6e6e6;
 }
