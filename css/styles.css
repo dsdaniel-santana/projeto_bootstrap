@@ -52,3 +52,83 @@ header, .navbar {
 .navbar-nav .nav-link:hover {
     color: #e6e6e6;
 }
+
+/* slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #f2f2f2;
+}
+
+.main-btn{
+    background-color: #65daf8;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: transparent;
+    border-color: #65daf9;
+}
+
+
+
+
+
+/* estrutura para remover numeros do carrosel indicators */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    position: relative;
+    display: inline-block;
+    margin: 1px;
+}
+
+.carousel-indicators li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #65daf9;
+}
+/* final estrutura para remover numeros do carrosel indicators */
+
+
+

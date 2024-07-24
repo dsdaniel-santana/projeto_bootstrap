@@ -57,3 +57,5 @@ Detalhando os passos para configurar a barra de navegação do seu projeto usand
 * Certifique-se de ajustar os estilos e classes de acordo com o design desejado para o seu projeto.
 * Este guia configura a barra de navegação com base na versão mais recente do Bootstrap.
 
+# Curso Bootstrap #04: Criando um slider para o projeto (carousel)
+
